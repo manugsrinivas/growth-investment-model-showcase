@@ -1,0 +1,140 @@
+{
+  "data_pipeline": {
+    "cache_grace_days": 3
+  },
+  "macro_etf_universe": {
+    "broad_indices": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "DIA"
+    ],
+    "style": [
+      "SPYG",
+      "SPYV",
+      "VUG",
+      "IVW"
+    ],
+    "treasuries": [
+      "SGOV",
+      "BIL",
+      "SHY",
+      "IEI",
+      "IEF",
+      "TLT",
+      "TIP"
+    ],
+    "credit_bonds": [
+      "AGG",
+      "LQD",
+      "HYG",
+      "JNK",
+      "ANGL",
+      "BKLN",
+      "MBB",
+      "EMB"
+    ],
+    "commodities": [
+      "GLD",
+      "SLV",
+      "USO",
+      "DBC",
+      "CPER"
+    ],
+    "intl_fx": [
+      "UUP",
+      "EEM",
+      "EFA",
+      "FXI",
+      "EWJ",
+      "FXE"
+    ],
+    "volatility": [
+      "VXX"
+    ],
+    "sectors": [
+      "XLK",
+      "XLC",
+      "XLY",
+      "XLF",
+      "XLV",
+      "XLI",
+      "XLB",
+      "XLE",
+      "XLU",
+      "XLRE",
+      "SMH",
+      "ARKK",
+      "IGV"
+    ]
+  },
+  "fred_series": {
+    "rates": [
+      "FEDFUNDS",
+      "DGS1",
+      "DGS2",
+      "DGS5",
+      "DGS10",
+      "DGS30",
+      "T10YIE",
+      "T5YIE",
+      "MORTGAGE30US",
+      "DAAA"
+    ],
+    "financial_conditions": [
+      "NFCI",
+      "STLFSI4",
+      "BAA10Y",
+      "TEDRATE"
+    ],
+    "employment": [
+      "UNRATE",
+      "ICSA",
+      "CCSA",
+      "PAYEMS",
+      "AWHMAN",
+      "SAHMREALTIME"
+    ],
+    "inflation": [
+      "CPILFESL",
+      "CPIAUCSL",
+      "PCEPI",
+      "PPIFIS"
+    ],
+    "money": [
+      "M2SL",
+      "WALCL",
+      "WRESBAL",
+      "M2V"
+    ],
+    "activity": [
+      "INDPRO",
+      "DGORDER",
+      "ISRATIO",
+      "CAPUTLB00004SQ",
+      "USSLIND"
+    ],
+    "consumer": [
+      "UMCSENT",
+      "RRSFS",
+      "PSAVERT"
+    ],
+    "housing": [
+      "HOUST",
+      "PERMIT",
+      "CSUSHPINSA"
+    ],
+    "fiscal": [
+      "GFDEGDQ188S",
+      "MTSDS133FMS"
+    ],
+    "fx": [
+      "DTWEXBGS",
+      "DEXUSEU",
+      "DEXJPUS",
+      "DEXCHUS",
+      "DEXUSUK",
+      "BOPGSTB"
+    ]
+  }
+}

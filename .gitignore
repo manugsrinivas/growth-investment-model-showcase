@@ -1,0 +1,11 @@
+# Rebuilt locally -- never committed (Yahoo's terms bar redistributing the price data)
+data/macro/
+# Runtime output and live state
+logs/
+state/
+# Environments, secrets, caches
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc

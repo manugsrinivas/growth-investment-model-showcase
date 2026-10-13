@@ -1,0 +1,5 @@
+numpy==2.4.6
+pandas==3.0.3
+yfinance==1.4.0
+fredapi==0.5.2
+alpaca-py==0.43.4   # needed by growth_slot.py and dial_regression_test.py (the test's live-dial checks use a mock client; no API calls)
